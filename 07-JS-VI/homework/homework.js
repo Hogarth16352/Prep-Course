@@ -50,9 +50,9 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var newArray =  array.map( element => cb(element) );
+  var arreglo =  array.map( element => cb(element) );
 
-  return newArray;
+  return arreglo;
 
 }
 
@@ -61,9 +61,9 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 
-  const newArreglo = array.filter( ele => ele[0] === "a" );
+  const arreglo = array.filter( ele => ele[0] === "a" );
 
-  return newArreglo;
+  return arreglo;
 }
 
 // No modificar nada debajo de esta línea
