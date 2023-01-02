@@ -53,7 +53,7 @@ function map(array, cb) {
   var newArray =  array.map( element => cb(element) );
 
   return newArray;
-  
+
 }
 
 function filter(array) {
