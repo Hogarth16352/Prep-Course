@@ -95,7 +95,13 @@ function asAmirror(str) {
 
   }
 
+  /*
+  var inv = arreglo.map(function(ele){
+    return ele.split('').reverse().join('');
+  })
 
+  return inv.join(" ");
+  */
   return inv;
 
 } 
@@ -115,6 +121,8 @@ function capicua(numero){
     inversa += cadena[i];
     
   }
+
+  //inversa = cadena.split('').reverse().join('');
 
   if ( inversa === cadena ){
 

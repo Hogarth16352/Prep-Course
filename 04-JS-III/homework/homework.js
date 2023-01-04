@@ -360,9 +360,15 @@ function continueStatement(numero) {
   let j = 0;
   for (let i = 0; i < 10; i++) {
 
-    if( i != 4 ){
-    array[j] = numero += 2;
-    j++;
+    if( i === 4 ){
+
+        continue;
+    
+    }else{
+
+      array[j] = numero += 2;
+      j++;
+
     }
 
   }
