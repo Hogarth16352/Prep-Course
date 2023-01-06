@@ -11,8 +11,14 @@ img {
 
 }
 
+
 #thirdDiv {
 
+    width: 100%;
+  display: flex;
+  justify-content: center;
+
+    margin: 0 auto;
     width: 500px;
     height: 600px;
     background-color:darkslategray;
@@ -20,12 +26,31 @@ img {
     border: 20px;
     border-color:orange;
     border-style:solid;
-
+  
 }
 
 #spanId {
-
+    
+    
     font-size: 18px;
     margin: 50px;
     
+}
+
+body{
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d8/Domino%27s_Pizza_In_Spring_Hill%2CFLA.JPG');
+    color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0px auto;
+    
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin:0px auto;
 }
